@@ -1,0 +1,280 @@
+/*variable*/
+:root {
+    --background-color: #f5f5f5;
+    --background-color-2: #eaf2fd;
+}
+
+.background-1{
+    background-color: var(--background-color);
+}
+
+.background-2{
+    background-color: var(--background-color-2);
+}
+
+section{
+    padding: 1.25rem .65rem 1.25rem;
+}
+
+/*header*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    
+}
+
+.link {
+    text-decoration: none;
+    color: initial;
+}
+
+
+.header-h1 {
+    display: inline;
+    font-size: 16px;
+    vertical-align: super;
+}
+
+
+/*presentation-section*/
+.presentation-section-div__img {
+    background-image: url("../assets/perfil-img.png");
+    background-position: center;
+    background-size: cover;
+    border-radius: 150px;
+    width: 100px;
+    height: 100px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social-links {
+    text-decoration: none;
+    color: initial;
+}
+
+.social-links::after {
+    content: url("../assets/arrow-icon.svg");
+    position: relative;
+    top: 3.5px;
+}
+
+/*Skills section*/
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-box {
+    background-color: #fff;
+    width: 150px;
+    height: 110px;
+    margin: 10px;
+}
+
+.skills-h2,
+.hobbies-h2 {
+    text-align: center;
+}
+
+.skills-icon {
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 1.5rem;
+}
+
+.html {
+    background-image: url("../assets/html-icon.png");
+}
+
+.css {
+    background-image: url("../assets/css-file 1.svg");
+}
+
+.javascript {
+    background-image: url("../assets/js-icon.png");
+}
+
+.musica {
+    background-image: url("../assets/music-icon.svg");
+}
+
+.leer {
+    background-image: url("../assets/read-icon.svg");
+}
+
+.series {
+    background-image: url("../assets/tv-icon.svg");
+}
+
+.videojuegos {
+    background-image: url("../assets/game-icon.svg");
+}
+
+.flex-box__name {
+    font-size: 1rem;
+    margin: .2rem .5rem;
+}
+
+/*Formation section*/
+
+.formation-h2 {
+    text-align: center;
+}
+
+.formation-div__flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-box__large {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.formation-div__img-container {
+    background-color: #fff;
+    min-width: 275px;
+    min-height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.alura-logo{
+    background-image: url("../assets/alura-logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 80px;
+    height: 50px;
+}
+
+.formation-h3__name{
+    margin: 10px 0;
+}
+
+.formation-p__date{
+    margin-top: 0;
+}
+
+/*Profesional experience*/
+
+.experience__flex-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.experience-h2{
+    text-align: center;
+}
+
+.experience__flex-box{
+    justify-content: center;
+    margin: auto;
+}
+
+.experience__img-container{
+    background-image: url("../assets/Rectangle.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 300px;
+    height: 150px;
+}
+
+.project-name{
+    margin: 10px 0 10px;
+}
+
+.project-info{
+    margin-top:5px
+}
+
+.btn-container{
+    display: flex;
+    margin-top: 10px;
+}
+
+.btn{
+    margin: 5px;
+    border: 2px solid #2A7AE4;
+    padding: 5px;
+    max-width: 150px;
+}
+
+.repo-btn{
+    color: #2A7AE4;
+}
+
+.demo-btn{
+    background-color: #2A7AE4;
+    color: #f5f5f5;
+}
+
+/*form-section*/
+.input-section{
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto 20px;
+    background-color: #fff;
+    max-width: 260px;
+    width: 300px;
+    border-radius: 3px;
+}
+
+.contact-form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.input{
+    margin: 0;
+    border: none;
+    border-bottom: 1px solid #C8C8C8;
+    border-radius: 3px;
+    resize: none;
+    
+}
+
+.input-label{
+    margin: 0;
+}
+
+.contact-h2, .contact-p{
+    margin: 3px 45px ;
+    width: 275px;
+    
+}
+
+.label{
+    padding: 8px 10px;
+    font-size: 10px;
+    
+}
+
+.form-btn{
+    margin-left: 45px;
+    width: 125px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.dev-info{
+    text-align: center;
+    margin: 3px;
+}
+
+footer{
+    padding: 30px 30px 20px; 
+}
