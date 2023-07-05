@@ -1,0 +1,24 @@
+.presentation-section-div__img {
+    background-image: url("../assets/perfil-img.png");
+    background-position: center;
+    background-size: cover;
+    border-radius: 150px;
+    width: 100px;
+    height: 100px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social-links {
+    text-decoration: none;
+    color: initial;
+}
+
+.social-links::after {
+    content: url("../assets/arrow-icon.svg");
+    position: relative;
+    top: 3.5px;
+}

@@ -1,0 +1,47 @@
+.input-section{
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto 20px;
+    background-color: #fff;
+    max-width: 260px;
+    width: 300px;
+    border-radius: 3px;
+}
+
+.contact-form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.input{
+    margin: 0;
+    border: none;
+    border-bottom: 1px solid #C8C8C8;
+    border-radius: 3px;
+    resize: none;
+    
+}
+
+.input-label{
+    margin: 0;
+}
+
+.contact-h2, .contact-p{
+    margin: 3px 45px ;
+    width: 275px;
+    
+}
+
+.label{
+    padding: 8px 10px;
+    font-size: 10px;
+    
+}
+
+.form-btn{
+    margin-left: 45px;
+    width: 125px;
+    padding: 5px;
+    font-size: 14px;
+}

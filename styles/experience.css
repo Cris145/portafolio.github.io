@@ -1,0 +1,51 @@
+.experience__flex-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.experience-h2{
+    text-align: center;
+}
+
+.experience__flex-box{
+    justify-content: center;
+    margin: auto;
+}
+
+.experience__img-container{
+    background-image: url("../assets/Rectangle.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 300px;
+    height: 150px;
+}
+
+.project-name{
+    margin: 10px 0 10px;
+}
+
+.project-info{
+    margin-top:5px
+}
+
+.btn-container{
+    display: flex;
+    margin-top: 10px;
+}
+
+.btn{
+    margin: 5px;
+    border: 2px solid #2A7AE4;
+    padding: 5px;
+    max-width: 150px;
+}
+
+.repo-btn{
+    color: #2A7AE4;
+}
+
+.demo-btn{
+    background-color: #2A7AE4;
+    color: #f5f5f5;
+}
