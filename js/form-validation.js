@@ -1,5 +1,6 @@
 const allInputs = document.querySelectorAll(".input");
-const allSpans = document.querySelectorAll(".errorMessage__hide")
+const allSpans = document.querySelectorAll(".errorMessage__hide");
+const errorSound = document.getElementById("error-sound");
 
 const showInputValidation = (arrayOfInputs) => {
     arrayOfInputs.forEach((input, index) => {
@@ -8,6 +9,7 @@ const showInputValidation = (arrayOfInputs) => {
                 allSpans[index].innerHTML = ""
             } else {
                 allSpans[index].innerHTML = selectErrorMessage(input, input.dataset.type)
+                errorSound.play()
             }
         })
     });

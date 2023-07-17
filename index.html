@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="styles/normalize.css" />
     <link rel="stylesheet" href="styles/backgrounds.css" />
     <link rel="stylesheet" href="styles/experience.css" />
@@ -193,24 +194,24 @@
             </p>
           </div>
           <form action="" class="contact-form">
+            <audio src="/assets/sounds/error-sound.mp3" id="error-sound"></audio>
             <span class="errorMessage__hide name" data-type="name"></span>
             <div class="input-section">
-              <input type="text" class="name input" name="name" data-type="name" placeholder="Nombre" required pattern = "/^(?=.*[A-Z]).{3,}$/">
+              <input type="text" class="name input" name="name" data-type="name" placeholder="Nombre" required >
               <label for="name" class="label">Nombre</label>
             </div>
             <span class="errorMessage__hide" data-type="email"></span>
             <div class="input-section">
-              <input class="mail input" name="mail" type="email" data-type="email" placeholder="E-mail" required pattern="/^[\w-]+(\.[\w-]+)*@([\w-]+\.)+[a-zA-Z]{2,7}$/"/>
-              <label for="mail" class="label">E-mail</label>
+              <input class="mail input" name="mail" type="email" data-type="email" placeholder="E-mail" required pattern="[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?$"/>
+              <label for="mail" class="label">Email</label>
             </div>
             <span class="errorMessage__hide" data-type="topic"></span>
             <div class="input-section">
-              <input type="text" class="topic input" name="topic" data-type="topic" placeholder="Asunto" required  pattern="/^(?=.*[A-Z]).{3,}$/"/> 
+              <input type="text" class="topic input" name="topic" data-type="topic" placeholder="Asunto" required  /> 
               <label for="topic" class="label">Asunto</label>
             </div>
             <span class="errorMessage__hide" data-type="message"></span>
             <div class="input-section">
-              <label for="message" class="label top">Mensaje</label>
               <textarea
                 name="message"
                 cols="30"
@@ -219,8 +220,8 @@
                 data-type="message"
                 placeholder="Mensaje"
                 required
-                pattern ="/^(?=.*[A-Z]).{3,}$/"
               ></textarea>
+              <label for="message" class="label top">Mensaje</label>
             </div>
             <button type="submit" class="form-btn">Enviar mensaje</button>
           </form>

@@ -27,7 +27,7 @@
 }
 
 .alura-logo{
-    background-image: url("../assets/alura-logo.png");
+    background-image: url("../assets/images/alura-logo.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -58,7 +58,7 @@
 @media screen and (min-width: 1024px) {
     
     .alura-logo{
-        background-image: url("../assets/alura-logo-big.png");
+        background-image: url("../assets/images/alura-logo-big.png");
         width: 190px;
         height: 130px;
     }

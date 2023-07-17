@@ -85,7 +85,7 @@
 
 @media screen and (min-width: 1024px){
     .form-img-container{
-        background-image: url("../assets/form-img.png");
+        background-image: url("../assets/images/form-img.png");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;

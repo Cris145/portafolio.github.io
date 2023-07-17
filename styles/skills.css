@@ -30,31 +30,31 @@
 }
 
 .html {
-    background-image: url("../assets/html-icon.png");
+    background-image: url("../assets/images/html-icon.png");
 }
 
 .css {
-    background-image: url("../assets/css-file 1.svg");
+    background-image: url("../assets/images/css-file 1.svg");
 }
 
 .javascript {
-    background-image: url("../assets/js-icon.png");
+    background-image: url("../assets/images/js-icon.png");
 }
 
 .musica {
-    background-image: url("../assets/music-icon.svg");
+    background-image: url("../assets/images/music-icon.svg");
 }
 
 .leer {
-    background-image: url("../assets/read-icon.svg");
+    background-image: url("../assets/images/read-icon.svg");
 }
 
 .series {
-    background-image: url("../assets/tv-icon.svg");
+    background-image: url("../assets/images/tv-icon.svg");
 }
 
 .videojuegos {
-    background-image: url("../assets/game-icon.svg");
+    background-image: url("../assets/images/game-icon.svg");
 }
 
 .flex-box__name {
