@@ -9,11 +9,14 @@
 .header{
     position: sticky;
     top: 0;
+    background-color: #405ff7;
+    z-index: 1;
 }
 
 .link {
     text-decoration: none;
-    color: initial;
+    color: #D8D8D8;
+    
 }
 
 

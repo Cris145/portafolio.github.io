@@ -1,5 +1,5 @@
 .presentation-section-div__img {
-    background-image: url("../assets/images/perfil-img.png");
+    background-image: url("../assets/images/perfil-imagen.jpg");
     background-position: center;
     background-size: cover;
     border-radius: 100%;
@@ -17,7 +17,7 @@
 
 .social-links {
     text-decoration: none;
-    color: initial;
+    color: #D8D8D8;
 }
 
 .social-links::after {
