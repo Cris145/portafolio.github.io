@@ -17,7 +17,7 @@
 
 .social-links {
     text-decoration: none;
-    color: #D8D8D8;
+    color: #464646;
 }
 
 .social-links::after {
@@ -57,5 +57,9 @@
 
     .saludo{
         font-size: 55px;
+    }
+
+    .about_me-div{
+        max-width: 60vw;
     }
 }

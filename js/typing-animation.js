@@ -4,17 +4,17 @@ const caret = document.querySelector(".caret")
 const typingAnimation = (text, tag) => {
     let index = 0
     let finalText = ""
-    const interval = setInterval(() => {
+    const typingText = setInterval(() => {
         finalText += text[index]
         tag.innerText = finalText
         index++
         if (index == text.length) {
-            clearInterval(interval)
+            clearInterval(typingText)
             setTimeout(()=>{
                 caret.style.display = "none"
             },1000)
         }
-    }, 250)
+    }, 150)
     
 }
 
