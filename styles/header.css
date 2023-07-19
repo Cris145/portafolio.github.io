@@ -15,8 +15,11 @@
 
 .link {
     text-decoration: none;
-    color: #464646;
-    
+    color: #464646;    
+}
+
+.link:hover{
+    color: #2A7AE4;
 }
 
 

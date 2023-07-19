@@ -18,6 +18,6 @@ const typingAnimation = (text, tag) => {
     
 }
 
-const paragraph = "Hola, mi nombre es Fulana de Tal y construyo paginas web."
+const paragraph = "¡Bienvenido a mi portafolio!"
 
 typingAnimation(paragraph, span)

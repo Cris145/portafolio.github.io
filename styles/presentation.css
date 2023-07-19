@@ -1,10 +1,11 @@
 .presentation-section-div__img {
-    background-image: url("../assets/images/perfil-imagen.jpg");
+    background-image: url("../assets/images/perfil-foto.png");
     background-position: center;
     background-size: cover;
     border-radius: 100%;
     width: 7rem;
     height: 7rem;
+    align-self: center;
 }
 
 .social-media {
@@ -26,6 +27,11 @@
     top: 3.5px;
 }
 
+.social-links:hover {
+    text-decoration: underline;
+}
+
+
 .presentation-section{
     padding-top: 3rem;
 }
@@ -39,8 +45,12 @@
 
     .presentation-section-div__img{
         order: 2;
-        width: 11.5rem;
-        height: 7rem;
+        width: 10.5rem;
+        height: 10rem;
+    }
+    
+    .presentation-section-div__info{
+        width: 65vw;
     }
 }
 

@@ -67,6 +67,7 @@ p{
     background-image: url("/assets/images/wave-3.svg");
 }
 
+
 @keyframes blink {
     0%{
         opacity: 1;

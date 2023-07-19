@@ -24,6 +24,7 @@
     width: 85vw;
     height: 30vw;
     max-width: 305px;
+    box-shadow: 27px 21px 51px -15px rgba(0,0,0,0.44);
 }
 
 .alura-logo{
