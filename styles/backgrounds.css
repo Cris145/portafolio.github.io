@@ -48,19 +48,19 @@ p{
 }
 
 .top-wave-1{
-    background-image: url("../assets/images/wave-1.svg");
+    background-image: url("./assets/images/wave-1.svg");
 }
 
 .top-wave-2{
-    background-image: url("../assets/images/wave-5.svg")
+    background-image: url("./assets/images/wave-5.svg")
 }
 
 .top-wave-3{
-    background-image: url("../assets/images/wave-4.svg")
+    background-image: url("./assets/images/wave-4.svg")
 }
 
 .bottom-wave-1{
-    background-image: url("../assets/images/wave-2.svg");
+    background-image: url("./assets/images/wave-2.svg");
 }
 
 .bottom-wave-2{

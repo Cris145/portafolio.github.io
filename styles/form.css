@@ -76,8 +76,7 @@
 }
 
 .errorMessage__hide{
-    margin-top: 1.5rem;
-    margin-bottom: -0.5rem;
+    margin: 1.5rem 1rem -0.5rem;
     font-size: .9rem;
     color: rgb(255, 10, 10);
     
