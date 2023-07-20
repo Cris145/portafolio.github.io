@@ -26,17 +26,17 @@ const errorType = [
 const errorMessages = {
     name: {
         valueMissing: "El campo nombre no puede estar vacío",
-        patternMismatch: "El nombre no es válido"
+        patternMismatch: "El nombre puede tener mas de 50 caracteres"
     },
     email: {
         valueMissing: "El campo email no puede estar vacío",
         patternMismatch: "El email no es válido"
     }, topic: {
         valueMissing: "El campo asunto no puede estar vacío",
-        patternMismatch: "El asunto no es válido"
+        patternMismatch: "El asunto no puede tener mas de 50 caracteres"
     }, message: {
         valueMissing: "El campo mensaje no puede estar vacío",
-        patternMismatch: "El mensaje no es válido"
+        patternMismatch: "El mensaje no puede tener mas de 500 caracteres"
     }
 }
 
