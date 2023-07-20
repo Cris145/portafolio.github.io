@@ -36,7 +36,7 @@ const errorMessages = {
         patternMismatch: "El asunto no puede tener mas de 50 caracteres"
     }, message: {
         valueMissing: "El campo mensaje no puede estar vacío",
-        patternMismatch: "El mensaje no puede tener mas de 500 caracteres"
+        patternMismatch: "El mensaje no puede tener mas de 300 caracteres"
     }
 }
 

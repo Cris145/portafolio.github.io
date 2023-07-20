@@ -181,7 +181,7 @@
             <audio src="./assets/sounds/error-sound.mp3" id="error-sound"></audio>
             <span class="errorMessage__hide name" data-type="name"></span>
             <div class="input-section">
-              <input type="text" class="name input" name="name" data-type="name" placeholder="Nombre" required pattern="^.{0,50}$>
+              <input type="text" class="name input" name="name" data-type="name" placeholder="Nombre" required maxlength="50">
               <label for="name" class="label">Nombre</label>
             </div>
             <span class="errorMessage__hide" data-type="email"></span>
@@ -191,12 +191,12 @@
             </div>
             <span class="errorMessage__hide" data-type="topic"></span>
             <div class="input-section">
-              <input type="text" class="topic input" name="subject" data-type="topic" placeholder="Asunto" required pattern="^.{0,50}$" /> 
+              <input type="text" class="topic input" name="subject" data-type="topic" placeholder="Asunto" required maxlength="50" /> 
               <label for="subject" class="label">Asunto</label>
             </div>
             <span class="errorMessage__hide" data-type="message"></span>
             <div class="input-section">
-              <textArea
+              <textarea
                 name="comments"
                 cols="30"
                 rows="6"
@@ -204,8 +204,8 @@
                 data-type="message"
                 placeholder="Mensaje"
                 required
-                pattern="^[\s\S]{0,300}$"
-              ></textArea>
+                maxlength="300"
+              ></textarea>
               <label for="comments" class="label top">Mensaje</label>
             </div>
 
