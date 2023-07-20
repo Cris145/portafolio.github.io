@@ -23,20 +23,36 @@
 }
 
 
+
 .header-h1 {
     display: inline;
-    font-size: 25px;
+    font-size: 1.7rem;
     vertical-align: super;
 }
 
 .header-nav{
     display: flex;
     justify-content: space-between;
-    min-width: 150px;
+    width: min-content;
 }
 
 .hide{
     display: none;
+}
+
+@media screen and (max-width: 540px) {
+    
+    .email{
+        font-size: .8rem;
+    }
+
+    .header-h1{
+        font-size: 1rem
+    }
+
+    .logo{
+        margin-left: -2rem;
+    }
 }
 
 @media screen and (min-width: 1024px) {
