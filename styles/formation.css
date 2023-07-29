@@ -24,10 +24,14 @@
     width: 85vw;
     height: 30vw;
     max-width: 305px;
+<<<<<<< HEAD
+=======
+    box-shadow: 27px 21px 51px -15px rgba(0,0,0,0.44);
+>>>>>>> d1a8c25ecbd78d69e3c4a7bdb1f630af3da8f0b6
 }
 
 .alura-logo{
-    background-image: url("../assets/alura-logo.png");
+    background-image: url("../assets/images/alura-logo.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -58,7 +62,11 @@
 @media screen and (min-width: 1024px) {
     
     .alura-logo{
+<<<<<<< HEAD
         background-image: url("../assets/alura-logo-big.png");
+=======
+        background-image: url("../assets/images/alura-logo-big.png");
+>>>>>>> d1a8c25ecbd78d69e3c4a7bdb1f630af3da8f0b6
         width: 190px;
         height: 130px;
     }

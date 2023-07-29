@@ -2,6 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    
 }
 
 .flex-box {
@@ -14,7 +15,12 @@
     justify-content: end;
     align-items: flex-start;
     padding: 5px;
+<<<<<<< HEAD
+=======
+    box-shadow: 27px 21px 51px -15px rgba(0,0,0,0.44);
+>>>>>>> d1a8c25ecbd78d69e3c4a7bdb1f630af3da8f0b6
 }
+
 
 .skills-h2,
 .hobbies-h2 {
@@ -30,31 +36,31 @@
 }
 
 .html {
-    background-image: url("../assets/html-icon.png");
+    background-image: url("../assets/images/html-icon.png");
 }
 
 .css {
-    background-image: url("../assets/css-file 1.svg");
+    background-image: url("../assets/images/css-file 1.svg");
 }
 
 .javascript {
-    background-image: url("../assets/js-icon.png");
+    background-image: url("../assets/images/js-icon.png");
 }
 
 .musica {
-    background-image: url("../assets/music-icon.svg");
+    background-image: url("../assets/images/music-icon.svg");
 }
 
 .leer {
-    background-image: url("../assets/read-icon.svg");
+    background-image: url("../assets/images/read-icon.svg");
 }
 
 .series {
-    background-image: url("../assets/tv-icon.svg");
+    background-image: url("../assets/images/tv-icon.svg");
 }
 
 .videojuegos {
-    background-image: url("../assets/game-icon.svg");
+    background-image: url("../assets/images/game-icon.svg");
 }
 
 .flex-box__name {

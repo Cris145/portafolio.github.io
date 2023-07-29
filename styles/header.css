@@ -9,30 +9,62 @@
 .header{
     position: sticky;
     top: 0;
+<<<<<<< HEAD
+=======
+    
+    z-index: 2;
+>>>>>>> d1a8c25ecbd78d69e3c4a7bdb1f630af3da8f0b6
 }
 
 .link {
     text-decoration: none;
-    color: initial;
+    color: #464646;    
 }
+
+.link:hover{
+    color: #2A7AE4;
+}
+
 
 
 .header-h1 {
     display: inline;
-    font-size: 16px;
+    font-size: 1.7rem;
     vertical-align: super;
 }
 
 .header-nav{
     display: flex;
     justify-content: space-between;
+<<<<<<< HEAD
     min-width: 150px;
+=======
+    width: min-content;
+>>>>>>> d1a8c25ecbd78d69e3c4a7bdb1f630af3da8f0b6
 }
 
 .hide{
     display: none;
 }
 
+<<<<<<< HEAD
+=======
+@media screen and (max-width: 540px) {
+    
+    .email{
+        font-size: .8rem;
+    }
+
+    .header-h1{
+        font-size: 1rem
+    }
+
+    .logo{
+        margin-left: -2rem;
+    }
+}
+
+>>>>>>> d1a8c25ecbd78d69e3c4a7bdb1f630af3da8f0b6
 @media screen and (min-width: 1024px) {
     .hide{
         display: flex;

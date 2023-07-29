@@ -1,10 +1,14 @@
 .presentation-section-div__img {
-    background-image: url("../assets/perfil-img.png");
+    background-image: url("../assets/images/perfil-foto.png");
     background-position: center;
     background-size: cover;
     border-radius: 100%;
     width: 7rem;
     height: 7rem;
+<<<<<<< HEAD
+=======
+    align-self: center;
+>>>>>>> d1a8c25ecbd78d69e3c4a7bdb1f630af3da8f0b6
 }
 
 .social-media {
@@ -17,15 +21,23 @@
 
 .social-links {
     text-decoration: none;
-    color: initial;
+    color: #464646;
 }
 
 .social-links::after {
-    content: url("../assets/arrow-icon.svg");
+    content: url("../assets/images/arrow-icon.svg");
     position: relative;
     top: 3.5px;
 }
 
+<<<<<<< HEAD
+=======
+.social-links:hover {
+    text-decoration: underline;
+}
+
+
+>>>>>>> d1a8c25ecbd78d69e3c4a7bdb1f630af3da8f0b6
 .presentation-section{
     padding-top: 3rem;
 }
@@ -39,8 +51,17 @@
 
     .presentation-section-div__img{
         order: 2;
+<<<<<<< HEAD
         width: 11.5rem;
         height: 7rem;
+=======
+        width: 10.5rem;
+        height: 10rem;
+    }
+    
+    .presentation-section-div__info{
+        width: 65vw;
+>>>>>>> d1a8c25ecbd78d69e3c4a7bdb1f630af3da8f0b6
     }
 }
 
@@ -58,4 +79,11 @@
     .saludo{
         font-size: 55px;
     }
+<<<<<<< HEAD
+=======
+
+    .about_me-div{
+        max-width: 60vw;
+    }
+>>>>>>> d1a8c25ecbd78d69e3c4a7bdb1f630af3da8f0b6
 }

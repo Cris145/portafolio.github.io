@@ -11,7 +11,11 @@
 .experience__flex-box{
     display: flex;
     flex-direction: column;
+<<<<<<< HEAD
     margin: auto;
+=======
+    margin:  4vw auto;
+>>>>>>> d1a8c25ecbd78d69e3c4a7bdb1f630af3da8f0b6
 }
 
 .experience__img-container{
@@ -19,7 +23,11 @@
     height: 45vw;
     max-width:  800px;
     max-height: 400px;
+<<<<<<< HEAD
     background-image: url("../assets/Rectangle.png");
+=======
+    background-image: url("../assets/images/Rectangle.jpg");
+>>>>>>> d1a8c25ecbd78d69e3c4a7bdb1f630af3da8f0b6
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -63,11 +71,22 @@
     }
 
     .div-project-info{
+<<<<<<< HEAD
         margin: 1rem;
+=======
+        margin: 5rem;
+>>>>>>> d1a8c25ecbd78d69e3c4a7bdb1f630af3da8f0b6
     }
 
     .btn{
         font-size: 18px;
         padding: .75em;
     }
+<<<<<<< HEAD
+=======
+
+    .reverse{
+        order: 1;
+    }
+>>>>>>> d1a8c25ecbd78d69e3c4a7bdb1f630af3da8f0b6
 }
