@@ -2,14 +2,17 @@
     background-image: url("../assets/perfil-img.png");
     background-position: center;
     background-size: cover;
-    border-radius: 150px;
-    width: 100px;
-    height: 100px;
+    border-radius: 100%;
+    width: 7rem;
+    height: 7rem;
 }
 
 .social-media {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: start;
+    width: 30vw;
+    min-width: 325px;
 }
 
 .social-links {
@@ -21,4 +24,38 @@
     content: url("../assets/arrow-icon.svg");
     position: relative;
     top: 3.5px;
+}
+
+.presentation-section{
+    padding-top: 3rem;
+}
+
+@media screen and (min-width:768px){
+    .presentation-section{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .presentation-section-div__img{
+        order: 2;
+        width: 11.5rem;
+        height: 7rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .presentation-section-div__info{
+        width: 60vw;
+        
+    }
+    
+    .presentation-section-div__img{
+        width: 20.8rem;
+        height: 20.8rem;
+    }
+
+    .saludo{
+        font-size: 55px;
+    }
 }

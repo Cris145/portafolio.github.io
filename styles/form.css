@@ -3,9 +3,8 @@
     flex-direction: column;
     margin: 20px auto 20px;
     background-color: #fff;
-    max-width: 260px;
-    width: 300px;
     border-radius: 3px;
+    width: 87.5vw;
 }
 
 .contact-form{
@@ -19,29 +18,71 @@
     border: none;
     border-bottom: 1px solid #C8C8C8;
     border-radius: 3px;
-    resize: none;
-    
+    resize: none;   
+    padding: .5rem 1rem 1rem;
 }
 
-.input-label{
-    margin: 0;
+.input:hover, .input:focus {
+    outline: none;
+    border-bottom: 3px solid #2A7AE4;
 }
+
+
 
 .contact-h2, .contact-p{
-    margin: 3px 45px ;
+    margin: 3px  ;
     width: 275px;
     
 }
 
 .label{
     padding: 8px 10px;
-    font-size: 10px;
-    
+    font-size: 1.2rem;
+    position: relative;
+    top: 2rem;
+    left:.5rem;
+}
+
+.top:hover{
+    transform: translateX(-0.5rem) translateY(-2rem);
+    font-size: 13px;
+    transition: all 1s;
 }
 
 .form-btn{
-    margin-left: 45px;
-    width: 125px;
+    border: 2px solid #2A7AE4;
     padding: 5px;
+    max-width: 150px;
+    width: 125px;
+    padding: 10px;
     font-size: 14px;
+    background-color: #2A7AE4;
+    color: #f5f5f5;
+    font-size: 14px;
+}
+
+.message{
+    padding-top: 1rem;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+@media screen and (min-width: 1024px){
+    .form-img-container{
+        background-image: url("../assets/form-img.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 36vw;
+        height: 50vw;
+    }
+
+    .input-section{
+        width: 50vw;
+    }
 }
