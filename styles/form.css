@@ -20,36 +20,24 @@
     border-radius: 3px;
     resize: none;   
     padding: .5rem 1rem 1rem;
-<<<<<<< HEAD
-=======
     order: 1;
     caret-color: #2A7AE4;
     
->>>>>>> d1a8c25ecbd78d69e3c4a7bdb1f630af3da8f0b6
 }
 
 .input:hover, .input:focus {
     outline: none;
     border-bottom: 3px solid #2A7AE4;
-<<<<<<< HEAD
-=======
 }
 
 .input::placeholder{
     color: #fff;
->>>>>>> d1a8c25ecbd78d69e3c4a7bdb1f630af3da8f0b6
 }
 
 
 
 .contact-h2, .contact-p{
-<<<<<<< HEAD
-    margin: 3px  ;
-    width: 275px;
-    
-=======
     margin: 3px 2vw ; 
->>>>>>> d1a8c25ecbd78d69e3c4a7bdb1f630af3da8f0b6
 }
 
 .label{
@@ -59,6 +47,7 @@
     left: 1rem;
     transition: all .3s;
     width: 0;
+    pointer-events: none;
 }
 
 .input:focus ~ .label,
@@ -66,39 +55,18 @@
     transform: translateX(-0.5rem) translateY(-2rem);
     font-size: 13px;
     padding: 8px 10px;
-<<<<<<< HEAD
-    font-size: 1.2rem;
-    position: relative;
-    top: 2rem;
-    left:.5rem;
-}
-
-.top:hover{
-    transform: translateX(-0.5rem) translateY(-2rem);
-    font-size: 13px;
-    transition: all 1s;
-=======
     transition: all .3s;
->>>>>>> d1a8c25ecbd78d69e3c4a7bdb1f630af3da8f0b6
 }
 
 .form-btn{
     border: 2px solid #2A7AE4;
-<<<<<<< HEAD
-    padding: 5px;
-=======
->>>>>>> d1a8c25ecbd78d69e3c4a7bdb1f630af3da8f0b6
     max-width: 150px;
     width: 125px;
     padding: 10px;
     font-size: 14px;
     background-color: #2A7AE4;
     color: #f5f5f5;
-<<<<<<< HEAD
-    font-size: 14px;
-=======
     margin-left: 2vw;
->>>>>>> d1a8c25ecbd78d69e3c4a7bdb1f630af3da8f0b6
 }
 
 .message{
@@ -110,13 +78,6 @@
     justify-content: space-between;
 }
 
-<<<<<<< HEAD
-
-
-@media screen and (min-width: 1024px){
-    .form-img-container{
-        background-image: url("../assets/form-img.png");
-=======
 .errorMessage__hide{
     margin: 1.5rem 2vw -0.5rem;
     font-size: .9rem;
@@ -127,7 +88,6 @@
 @media screen and (min-width: 1024px){
     .form-img-container{
         background-image: url("../assets/images/form-img.png");
->>>>>>> d1a8c25ecbd78d69e3c4a7bdb1f630af3da8f0b6
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -138,8 +98,5 @@
     .input-section{
         width: 50vw;
     }
-<<<<<<< HEAD
-=======
  
->>>>>>> d1a8c25ecbd78d69e3c4a7bdb1f630af3da8f0b6
 }

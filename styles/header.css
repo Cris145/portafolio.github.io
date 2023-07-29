@@ -9,11 +9,8 @@
 .header{
     position: sticky;
     top: 0;
-<<<<<<< HEAD
-=======
     
     z-index: 2;
->>>>>>> d1a8c25ecbd78d69e3c4a7bdb1f630af3da8f0b6
 }
 
 .link {
@@ -36,19 +33,13 @@
 .header-nav{
     display: flex;
     justify-content: space-between;
-<<<<<<< HEAD
-    min-width: 150px;
-=======
     width: min-content;
->>>>>>> d1a8c25ecbd78d69e3c4a7bdb1f630af3da8f0b6
 }
 
 .hide{
     display: none;
 }
 
-<<<<<<< HEAD
-=======
 @media screen and (max-width: 540px) {
     
     .email{
@@ -64,7 +55,6 @@
     }
 }
 
->>>>>>> d1a8c25ecbd78d69e3c4a7bdb1f630af3da8f0b6
 @media screen and (min-width: 1024px) {
     .hide{
         display: flex;
